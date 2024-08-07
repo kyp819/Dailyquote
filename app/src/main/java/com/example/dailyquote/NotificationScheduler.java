@@ -19,8 +19,8 @@ public class NotificationScheduler {
 
         // Set the alarm to start at 6:00 AM
         Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.HOUR_OF_DAY, 12);
-        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.HOUR_OF_DAY, 6);
+        calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, 0);
 
         // If it's already past 6:00 AM, set it for the next day
