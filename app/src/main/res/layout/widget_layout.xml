@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:backgroundTint="@color/logo_clr"
+    >
+
+        <TextView
+            android:id="@+id/widget_quote_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Quote goes here"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:padding="16dp"/>
+</RelativeLayout>

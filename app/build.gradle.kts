@@ -32,7 +32,13 @@ android {
 }
 
 dependencies {
+    implementation (libs.room.runtime)
+    annotationProcessor (libs.room.compiler)
+    implementation(libs.dotsindicator)
 
+    implementation (libs.cardview)
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

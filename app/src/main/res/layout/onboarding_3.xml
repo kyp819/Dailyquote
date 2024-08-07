@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/logo_clr"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="290dp"
+        android:layout_height="350dp"
+        android:src="@drawable/third_pic"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Be Motivated"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:paddingTop="40dp"
+        android:paddingBottom="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnFinished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:background="@drawable/button_background2"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+</LinearLayout>
